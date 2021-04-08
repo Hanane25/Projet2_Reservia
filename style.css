@@ -691,7 +691,7 @@ footer{
 
 
 /*----- Affichage sur les petits écrans -----*/
-
+/*----*/
 
 @media screen and (min-width: 500px) and (max-width: 767px){
 
