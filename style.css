@@ -156,6 +156,11 @@ p{
     display: flex;   
 }
 
+#iconesfiltres{
+    display: flex;
+}
+
+
 .filtre:hover{
     font-size: 1em;
     background-color: #deebff;
@@ -625,7 +630,7 @@ footer{
         padding-right: 40px;
     }
 
-    #filtres{
+    #iconesfiltres{
         flex-wrap: wrap;
     }
 
@@ -753,9 +758,10 @@ footer{
         font-size: 1em;
     }
 
-    #filtres{
+    #iconesfiltres{
         flex-wrap: wrap;
     }
+
 
     #section1 h1{
         font-size: 1.2em;
@@ -962,7 +968,7 @@ footer{
         padding: 21px 20px;
     }
 
-    nav ul li{
+    nav ul{
         border-bottom: 2.5px solid #f2f2f2;
     }
 
@@ -972,7 +978,7 @@ footer{
         margin-left: auto;
         margin-right: auto;
     }
-
+    
     nav a:hover{
         border-top: none;
         border-bottom: 1px #0065FC solid;
@@ -1037,9 +1043,29 @@ footer{
     }
 
     #filtres {
-        flex-wrap: wrap;
+        display: block;
         font-size: 0.8em;
     }
+
+    .filtre{
+        margin-left: 0px;
+        margin-right: 5px;
+        padding-right: 0px;
+    }
+
+    #iconesfiltres{
+        flex-wrap: wrap;
+    }
+
+    .mot-choix{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .icone{
+        margin-right: 0px;
+    }
+    
 
     .titre-filtres{
         font-size: 1.2em;
