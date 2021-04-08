@@ -303,7 +303,7 @@ p{
     padding-right: 2px;
 }
 
-#description-hebergement{
+.description-hebergement{
     margin-left: 10px;
     font-size: 0.9em;
     margin-bottom: 5px;
@@ -317,11 +317,11 @@ p{
     color: #cacaca;
 }
 
-#description-hebergement h3{
+.description-hebergement h3{
     margin: 3px 0px;
 }
 
-#description-hebergement p{
+.description-hebergement p{
     margin: 6px 0px;
 }
 
@@ -388,7 +388,7 @@ p{
     width: 100%;
 }
 
-#description-pluspopulaire{
+.description-pluspopulaire{
     font-size: 0.9em;
 }
 
